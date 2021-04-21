@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { todoItem } from './interfaces/todo-item';
+import { todoItem } from 'src/app/interfaces/todo-item';
 
 @Component({
   selector: 'app-todo-item',
@@ -14,7 +14,4 @@ export class TodoItemComponent implements OnInit {
   ngOnInit(): void {
   }
 }
-export interface todoItem {
-  title: string;
-  completed?: boolean
-}
+
